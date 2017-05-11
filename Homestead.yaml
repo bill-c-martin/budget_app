@@ -12,12 +12,12 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/home/billy/projects/budget_app"
-      to: "/home/vagrant/budget-app"
+    - map: "/d/Dropbox/development/projects/budget_app"
+      to: "/vagrant/"
 
 sites:
     - map: budget.app
-      to: "/home/vagrant/budget-app/public"
+      to: "/vagrant/public"
 
 databases:
     - homestead
